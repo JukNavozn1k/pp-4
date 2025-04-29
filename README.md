@@ -63,3 +63,11 @@ Contributions are welcome! Please open an issue or submit a pull request.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+
+### For vscode (include path on WSL ubuntu)
+```
+${workspaceFolder}/**
+"/usr/include"
+/usr/lib/x86_64-linux-gnu/openmpi/include
+```
